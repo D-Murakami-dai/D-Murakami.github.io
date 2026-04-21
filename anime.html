@@ -2,13 +2,9 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <title>カバエモンのWebサイト</title>
+    <title>アニメに関する発信</title>
 
     <style>
-        h1{
-            color:aquamarine;
-        }
-
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f6f8;
@@ -35,55 +31,33 @@
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
 
+        h1 {
+            color: aquamarine;
+        }
+
         h2 {
             border-left: 5px solid #3498db;
             padding-left: 10px;
         }
 
-        footer {
-            text-align: center;
-            padding: 15px;
-            background-color: #2c3e50;
-            color: white;
-            margin-top: 30px;
+        .article {
+            margin-top: 15px;
+            padding-top: 10px;
+            border-top: 1px solid #ddd;
         }
 
-        button {
-            padding: 10px 15px;
-            background-color: #3498db;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background-color: #2980b9;
-        }
-
-        /* ↓ここから追加（カードレイアウト） */
-        .card-container {
-            display: flex;
-            gap: 20px;
-        }
-
-        .card {
-            flex: 1;
-            background-color: white;
-            padding: 20px;
+        a {
+            display: inline-block;
+            margin-top: 20px;
             text-decoration: none;
-            color: black;
-            border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            text-align: center;
+            color: white;
+            background-color: #3498db;
+            padding: 10px 15px;
+            border-radius: 5px;
         }
 
-        .card:hover {
-            transform: translateY(-5px);
-        }
-
-        p1{
-            color:aquamarine;
+        a:hover {
+            background-color: #2980b9;
         }
     </style>
 </head>
@@ -91,50 +65,26 @@
 <body>
 
 <header>
-    <h1>カバエモンのゆるゆる発信(不定期更新)</h1>
-    <p>とある大学院生(修士課程二年)が好きなことをゆる～く発信していくサイト</p>
+    <h1>アニメに関する発信</h1>
+    <p>アニメに関することを発信していきます</p>
 </header>
 
 <div class="container">
 
     <section>
-        <h2>サイトについて</h2>
-        <p>ITやアニメ,ゲームなど好きなことをゆるく発信していくサイトです．</p>
+        <h2>このページについて</h2>
+        <p>ここでは好きなアニメ・視聴した作品やおすすめ作品，今期のおすすめアニメなどを発信していきます．</p>
+        <p>※今期のおすすめアニメについては,3ヶ月に1回更新．</p>
     </section>
 
-    <!-- ↓ここ追加（ジャンルカード） -->
     <section>
-        <h2>ジャンル</h2>
-
-        <div class="card-container">
-
-            <a href="it.html" class="card">
-                <h3>IT</h3>
-                <p>ITに関する発信はこちらから</p>
-                <p1>※現在何も発信していません</p>
-            </a>
-
-            <a href="anime.html" class="card">
-                <h3>アニメ</h3>
-                <p>アニメに関する発信はこちらから</p>
-            </a>
-
-            <a href="game.html" class="card">
-                <h3>ゲーム</h3>
-                <p>ゲームに関する発信はこちらから</p>
-                <p1>※現在何も発信していません</p>
-            </a>
-
-        </div>
+        <h2>今期のおすすめアニメ</h2>
+        <p></p>
     </section>
 
-    <p>※今後，色々増えていくと思います．</p>
+    <a href="index.html">← トップに戻る</a>
 
 </div>
-
-<footer>
-    <p>© 2026 カバエモン</p>
-</footer>
 
 </body>
 </html>
